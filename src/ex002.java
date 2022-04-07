@@ -14,6 +14,8 @@ public class ex002 {
 
         System.out.println("Se é o menor valor que vc quer, entao recebaaaa "+menor);
     }
+
+    
     public static int menorValor(int[] vetorP){
         int numMenor = vetorP[0];
         for(int i = 0 ; i < vetorP.length; i++){
