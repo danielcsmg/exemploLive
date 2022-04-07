@@ -10,9 +10,12 @@ public class menu {
         int resposta = somatorio(numDigitado);
         System.out.println("Somatório: " + resposta);
 
-
         int dobro = dobrar(numDigitado);
         System.out.println("Dobro: " + dobro);
+
+        int triplo = triplicar(5);
+        System.out.println("Triplo: "+triplo);
+
     }
 
     public static int somatorio(int n) {
@@ -28,5 +31,11 @@ public class menu {
         n = n * 2;
 
         return n;
+    }
+
+    public static int triplicar(int num){
+        num = num * 3;
+        
+        return num;
     }
 }
